@@ -1,0 +1,8 @@
+[project]
+name = "test"
+dynamic = ["version"]
+
+dependencies = ["numpy", "jupyter"]
+
+[project.optional-dependencies]
+dev = ["deptry"]
